@@ -112,6 +112,14 @@ body {
 	font-weight:normal;
 }
 
+.title h1 {
+  color:white;
+  text-align:center;
+  margin-top:100px;
+  margin-left:500px;
+
+}
+
 
 /********************
 Contact form
@@ -157,7 +165,7 @@ Contact form
 	width: 450px;
 	left: 55%;
 	position: absolute;
-  margin-top:80px;
+  margin-top:10px;
 	margin-left: -260px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
