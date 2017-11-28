@@ -10,3 +10,6 @@ function hamBurger() {
             $('.resp-menu').slideToggle(300);
         });
 }
+
+// Tweaked from the original:
+// https://codepen.io/jpschwinghamer/pen/QwwbgO
