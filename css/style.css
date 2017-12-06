@@ -436,13 +436,15 @@ MEDIA QUERIES
 
 	.container-work {
 		margin-left: 0;
+		padding-top:60px;
 	}
 	.container-cv {
 		margin-left:0;
-		padding-top:50px;
+		padding-top:60px;
 	}
 	.container-about {
 		margin-left: 0;
+		padding-top:60px;
 	}
 
 	#about {
@@ -460,6 +462,7 @@ MEDIA QUERIES
 	.container-contact {
 		margin-left: 0;
 		height:700px;
+		padding-top:60px;
 	}
 
 	nav {
