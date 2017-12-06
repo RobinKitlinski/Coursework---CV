@@ -328,6 +328,7 @@ MEDIA QUERIES
 	.container-work {
 		margin-left: 0;
 		padding-top:70px;
+		background-size:cover;
 	}
 	.container-cv {
 		margin-left:0;
