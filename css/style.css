@@ -180,8 +180,8 @@ label {
 }
 
 input[type=submit]:hover {
-    text-align: right;
-    background-color: #F03434;
+	float:right;
+    background-color: #1a3942;
 }
 
 /********************
