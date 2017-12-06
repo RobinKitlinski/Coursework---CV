@@ -403,7 +403,9 @@ MEDIA QUERIES
   font-size: 48px;
   font-weight: bold;
   }
-	
+	#content4 {
+		margin:0 auto;
+		width:100%;
 	form {
   margin:0 auto;
   width:80%;
