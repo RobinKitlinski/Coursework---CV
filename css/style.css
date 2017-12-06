@@ -116,7 +116,7 @@ body {
   margin:0;
   color:white;
   text-align:center;
-  background-color:rgba(0,0,0,0.4 );
+  background-color:rgba(0,0,0,0.7 );
 }
 
 #content4{
@@ -178,7 +178,8 @@ label {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    text-align: right;
+    background-color: #F03434;
 }
 
 /* Icons ---------------------------------- */
