@@ -25,166 +25,6 @@ body {
   clear: both;
 }
 
-.container {
-	background:url(../img/bridge.jpg) no-repeat right top;
-	background-size: cover;
-  height: 100vh;
-	margin:0 auto;
-	display:flex;
-	margin-left: 200px;
-}
-
-.container-about {
-	background:url(../img/myself.jpg) no-repeat right top;
-	background-size: cover;
-  height: 100vh;
-	display:flex;
-  margin:0 auto;
-	margin-left: 200px;
-}
-
-.container-work {
-	background:url(../img/work.jpg) no-repeat right top;
-	background-size: cover;
-	margin-left: 200px;
-	height: 100vh;
-	display:flex;
-}
-
-.container-contact {
-	background:url(../img/road.jpg) no-repeat right top;
-	background-size: cover;
-        height: 100vh;
-	display:flex;
-	margin-left: 200px;
-}
-
-.container-cv {
-  background:url(../img/cv-back.jpg) no-repeat right top;
-	background-size: cover;
-  height: 100vh;
-	display:flex;
-	margin-left: 200px;
-}
-
-.container-cv img{
-  width:70%;
-  height:auto;
-  margin:auto;
-}
-
-.welcome{
-	width:800px;
-	height:250px;
-	margin:auto auto;
-}
-
-#head1 {
-	width:200px;
-	margin:10px auto;
-	border-radius: 1px;
-	background-color: rgba(0,0,0,0.4);
-	padding:5px;
-	height:auto;
-}
-
-#head2 {
-	max-width:800px;
-	margin:auto auto;
-	border-radius: 1px;
-	background-color: rgba(0,0,0,0.4);
-	padding:5px;
-	height:auto;
-}
-
-.container h1{
-	margin:0;
-	text-align:center;
-	color: rgba(255,255,255,0.9);
-	text-transform:uppercase;
-  font-size: 88px;
-  font-weight: bold;
-}
-
-.container h2{
-	margin:0;
-	text-align:center;
-	color: rgba(255,255,255,0.9);
-  font-size: 28px;
-	font-weight:normal;
-}
-
-.title h1 {
-  margin:0;
-  color:white;
-  text-align:center;
-}
-
-#content4{
-	width:70%;
-	height:100px;
-	margin:0 auto;
-	padding-top:150px;	
-}
-
-#about{
-	width:70%;
-	height:550px;
-	background-color:rgba(0,0,0,0.0 );
-	margin:auto auto;
-	padding:1%;
-}
-
-#about h1{
-	color:#fff;
-	font-size:38px;
-	font-weight:bold;
-  padding-left:25px;
-}
-
-#about p{
-	color:#fff;
-	font-size:24px;
-}
-
-/********************
-Contact form
-**********************/
-form {
-  margin:0 auto;
-  width:60%;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float:right;
-}
-
-label {
-    color:white;
-}
-
-input[type=submit]:hover {
-    float:right;
-    background-color: #1a3942;
-}
-
 /********************
 NAVBAR
 **********************/
@@ -233,7 +73,196 @@ nav li a:hover {
 	padding-top:0px;
 }
 
-/* Responive menu */
+/********************
+Containers
+**********************/
+
+.container {
+	background:url(../img/bridge.jpg) no-repeat right top;
+	background-size: cover;
+        height: 100vh;
+	margin:0 auto;
+	display:flex;
+	margin-left: 200px;
+}
+
+.container-about {
+	background:url(../img/myself.jpg) no-repeat right top;
+	background-size: cover;
+        height: 100vh;
+	display:flex;
+        margin:0 auto;
+	margin-left: 200px;
+}
+
+.container-work {
+	background:url(../img/work.jpg) no-repeat right top;
+	background-size: cover;
+	margin-left: 200px;
+	height: 100vh;
+	display:flex;
+}
+
+.container-contact {
+	background:url(../img/road.jpg) no-repeat right top;
+	background-size: cover;
+        height: 100vh;
+	display:flex;
+	margin-left: 200px;
+}
+
+.container-cv {
+        background:url(../img/cv-back.jpg) no-repeat right top;
+	background-size: cover;
+        height: 100vh;
+	display:flex;
+	margin-left: 200px;
+}
+
+.container-cv img{
+  width:70%;
+  height:auto;
+  margin:auto;
+}
+
+/********************
+Containers - elements
+**********************/
+
+.welcome{
+	width:800px;
+	height:250px;
+	margin:auto auto;
+}
+
+#head1 {
+	width:200px;
+	margin:10px auto;
+	border-radius: 1px;
+	background-color: rgba(0,0,0,0.4);
+	padding:5px;
+	height:auto;
+}
+
+#head2 {
+	max-width:800px;
+	margin:auto auto;
+	border-radius: 1px;
+	background-color: rgba(0,0,0,0.4);
+	padding:5px;
+	height:auto;
+}
+
+.container h1{
+	margin:0;
+	text-align:center;
+	color: rgba(255,255,255,0.9);
+	text-transform:uppercase;
+  	font-size: 88px;
+  	font-weight: bold;
+}
+
+.container h2{
+	margin:0;
+	text-align:center;
+	color: rgba(255,255,255,0.9);
+  	font-size: 28px;
+	font-weight:normal;
+}
+
+.title h1 {
+  margin:0;
+  color:white;
+  text-align:center;
+}
+
+#content4{
+	width:70%;
+	height:100px;
+	margin:0 auto;
+	padding-top:150px;	
+}
+
+#about{
+	width:70%;
+	height:550px;
+	background-color:rgba(0,0,0,0.0 );
+	margin:auto auto;
+	padding:1%;
+}
+
+#about h1{
+	color:#fff;
+	font-size:38px;
+	font-weight:bold;
+  	padding-left:25px;
+}
+
+#about p{
+	color:#fff;
+	font-size:24px;
+}
+
+.grid {
+	display: flex;
+}
+
+img	{
+	height: auto;
+	max-width: 100%;
+}
+
+.col {
+	padding: 2.2em 1.5em;
+	height: auto;
+	max-width: 100%;
+	margin: 1em;
+	flex: 1;
+	background-color: rgba(255,255,255,0.0);
+}
+
+/********************
+Contact form
+**********************/
+
+form {
+  margin:0 auto;
+  width:60%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:right;
+}
+
+label {
+    color:white;
+}
+
+input[type=submit]:hover {
+    float:right;
+    background-color: #1a3942;
+}
+
+/********************
+Responsive-menu
+**********************/
 
 .responsiveMenu {
   height: 60px;
@@ -242,7 +271,7 @@ nav li a:hover {
   background: rgba(0,0,0, .8);
   position: fixed;
   visibility: hidden;
-	 z-index: 1;
+  z-index: 1;
 }
 
 .menu-icon{
@@ -252,7 +281,7 @@ nav li a:hover {
 	height:60px;
 	background:rgba(0,0,0, .9);
 	float:right;
-	}
+}
 
 .resp-menu{
 	visibility:visible;
@@ -264,8 +293,8 @@ nav li a:hover {
 
 .resp-menu ul{
 	width:100vw;
-  list-style: none;
-  padding: 0;
+  	list-style: none;
+  	padding: 0;
 }
 
 
@@ -287,31 +316,9 @@ nav li a:hover {
 	line-height:60px;
 	background: #fff;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
-  text-decoration: none;
-  color: #000;
-  text-align: center;
-}
-
-/********************
-My work
-**********************/
-
-.grid {
-	display: flex;
-}
-
-img	{
-	height: auto;
-	max-width: 100%;
-}
-
-.col {
-	padding: 2.2em 1.5em;
-	height: auto;
-	max-width: 100%;
-	margin: 1em;
-	flex: 1;
-	background-color: rgba(255,255,255,0.0);
+  	text-decoration: none;
+  	color: #000;
+  	text-align: center;
 }
 
 /********************
@@ -320,10 +327,10 @@ MEDIA QUERIES
 
 @media (max-width:650px) {
 
-  .container {
-    margin-left: 0;
-    padding-top:70px;
-  }
+	 .container {
+		margin-left: 0;
+		padding-top:70px;
+	 }
 
 	.container-work {
 		margin-left: 0;
@@ -372,16 +379,16 @@ MEDIA QUERIES
 	}
 
 	nav {
-      display: none;
-    }
+      		display: none;
+    	}
 
-    .responsiveMenu,
-    .menu-icon {
-      visibility: visible;
-    }
+    	.responsiveMenu,
+    	.menu-icon {
+     		visibility: visible;
+    	}
 
 	.grid {
-	   flex-direction: column;
+	   	flex-direction: column;
 		max-width:100%;
 	}
 
@@ -402,20 +409,22 @@ MEDIA QUERIES
 	}
 
 	.container h1{
-	margin:0;
-	text-align:center;
-	color: rgba(255,255,255,0.9);
-	text-transform:uppercase;
-  font-size: 48px;
-  font-weight: bold;
-  }
+		margin:0;
+		text-align:center;
+		color: rgba(255,255,255,0.9);
+		text-transform:uppercase;
+		font-size: 48px;
+		font-weight: bold;
+  	}
+	
 	#content4 {
 		margin:0 auto;
 		width:100%;
+	}
 	form {
-  margin:0 auto;
-  width:80%;
-}
+  		margin:0 auto;
+  		width:80%;
+	}
 
 }
 
