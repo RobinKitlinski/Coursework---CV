@@ -432,6 +432,7 @@ MEDIA QUERIES
 
   .container {
     margin-left: 0;
+    padding-top:70px;
   }
 
 	.container-work {
