@@ -47,12 +47,14 @@ body {
 	background:url(../img/work.jpg) no-repeat right top;
 	background-size: cover;
 	margin-left: 200px;
+	height: 100vh;
+	display:flex;
 }
 
 .container-contact {
 	background:url(../img/road.jpg) no-repeat right top;
 	background-size: cover;
-  height: 100vh;
+        height: 100vh;
 	display:flex;
 	margin-left: 200px;
 }
