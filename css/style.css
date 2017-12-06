@@ -173,6 +173,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    float:right;
 }
 
 label {
@@ -180,7 +181,7 @@ label {
 }
 
 input[type=submit]:hover {
-	float:right;
+    float:right;
     background-color: #1a3942;
 }
 
