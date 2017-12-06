@@ -447,10 +447,15 @@ MEDIA QUERIES
 		padding-top:70px;
 	}
 	
-	.content4 {
+	#content4 {
 		margin-top:0;
 		margin-left:0;
 		padding-top:70px;
+	}
+	
+	#content4 .title{
+		display:none;
+		visibility: hidden;
 	}
 
 	#about {
