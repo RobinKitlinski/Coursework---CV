@@ -113,11 +113,9 @@ body {
 }
 
 .title h1 {
+  margin:0 auto;
   color:white;
   text-align:center;
-  margin-top:100px;
-  margin-left:500px;
-
 }
 
 
