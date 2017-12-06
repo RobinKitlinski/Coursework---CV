@@ -126,9 +126,9 @@ Contact form
 #content4{
 	width:70%;
 	height:100px;
-	margin-top:300px;
 	margin:0 auto;
 	padding-top:300px;
+	background-color:rgba(0,0,0,0.4 );
 }
 
 #about{
