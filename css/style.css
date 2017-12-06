@@ -436,15 +436,21 @@ MEDIA QUERIES
 
 	.container-work {
 		margin-left: 0;
-		padding-top:60px;
+		padding-top:70px;
 	}
 	.container-cv {
 		margin-left:0;
-		padding-top:60px;
+		padding-top:70px;
 	}
 	.container-about {
 		margin-left: 0;
-		padding-top:60px;
+		padding-top:70px;
+	}
+	
+	.content4 {
+		margin-top:0;
+		margin-left:0;
+		padding-top:70px;
 	}
 
 	#about {
