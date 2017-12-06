@@ -338,6 +338,7 @@ MEDIA QUERIES
 	.container-about {
 		margin-left: 0;
 		padding-top:70px;
+		background-color:#141414;
 		height:auto;
 	}
 	
@@ -354,7 +355,7 @@ MEDIA QUERIES
 
 	#about {
 		width:100%;
-		
+		height:auto;
 	}
 
 	#about p{
