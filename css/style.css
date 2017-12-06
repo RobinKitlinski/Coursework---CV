@@ -173,6 +173,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
+label {
+    color:white;
+}
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
